@@ -101,16 +101,16 @@ def build(title, deck, stem):
         "États-Unis": (0, -50, "center", "top"),
         "Royaume-Uni": (0, -26, "center", "top"),
         "Allemagne": (0, 28, "center", "bottom"),
-        "Italie": (28, -10, "left", "center"),
-        "Japon": (35, 0, "left", "center"),
-        "Chine": (30, 8, "left", "bottom"),
+        "Italie": (28, -25, "left", "center"),
+        "Japon": (35, 10, "left", "center"),
+        "Chine": (30, 18, "left", "bottom"),
         "Brésil": (0, -30, "center", "top"),
         "Sénégal": (0, 30, "center", "bottom"),
         "Congo": (32, 14, "left", "bottom"),
-        "Tchad": (28, -12, "left", "top"),
-        "Côte d'Ivoire": (-25, 25, "right", "bottom"),
+        "Tchad": (28, 5, "left", "top"),
+        "Côte d'Ivoire": (-5, 25, "right", "bottom"),
         "Burkina Faso": (-35, 0, "right", "center"),
-        "Niger": (-28, -14, "right", "top"),
+        "Niger": (-20, -14, "right", "top"),
         "Mali": (14, -26, "left", "top"),
         "Madagascar": (30, -8, "left", "center"),
     }
@@ -130,7 +130,7 @@ def build(title, deck, stem):
                       arrowprops=leader)
 
     ax_a.axvline(1.0, color=RULE, lw=1.0, ls=(0, (4, 3)), zorder=1)
-    ax_a.text(1.13, 15, "France\n(référence)", ha="center", va="bottom", fontsize=T_NOTE, color=MUTED)
+    ax_a.text(1.2, 7, "France\n(référence)", ha="center", va="bottom", fontsize=T_NOTE, color=MUTED)
 
     ax_a.set_yscale("log")
     ax_a.set_xlim(0.6, XMAX)
@@ -148,10 +148,8 @@ def build(title, deck, stem):
     ax_a.set_xticklabels(["0,75\u202f\u00d7", "1\u202f\u00d7", "1,5\u202f\u00d7",
                           "2\u202f\u00d7", "2,5\u202f\u00d7", "3\u202f\u00d7",
                           "3,5\u202f\u00d7"])
-    ax_a.set_xlabel("La force d'un euro de recherche par pays, par rapport à la France",
-                    fontsize=T_BODY, color=MUTED, labelpad=7)
-    ax_a.set_ylabel("Nombre de chercheurs par million d'habitants\n(échelle logarithmique)",
-                    fontsize=T_BODY, color=MUTED, linespacing=1.4, labelpad=10)
+    ax_a.set_xlabel("Impact d'un euro investi dans le système de recherche par pays, par rapport à la France", fontsize=T_BODY, color=MUTED, labelpad=7)
+    ax_a.set_ylabel("Nombre de chercheurs par million d'habitants\n(échelle logarithmique)", fontsize=T_BODY, color=MUTED, linespacing=1.4, labelpad=10)
     ax_a.tick_params(labelsize=T_BODY, length=0)
     ax_a.tick_params(which="minor", length=0)
     # the minor grid is what makes the log scale legible; it stays fainter than the decades

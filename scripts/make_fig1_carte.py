@@ -139,12 +139,12 @@ def build(title, deck, stem):
         mpatches.Patch(facecolor=CLASSES[0][2], edgecolor=RULE, lw=0.5, label="l'IRD, 5× et plus"),
         mpatches.Patch(facecolor=CLASSES[1][2], edgecolor=RULE, lw=0.5, label="l'IRD, 2 à 5×"),
         mpatches.Patch(facecolor=CLASSES[3][2], edgecolor=RULE, lw=0.5, label="le CNRS, 2× et plus"),
-        mpatches.Patch(facecolor=NEUTRAL, edgecolor=RULE, lw=0.5, label="comparable"),
+        mpatches.Patch(facecolor=NEUTRAL, edgecolor=RULE, lw=0.5, label="nombre comparable"),
     ]
     leg = ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, 0),
                     ncol=5, frameon=False, handlelength=1.15, handleheight=1.15,
                     columnspacing=1.35, handletextpad=0.5, fontsize=T_NOTE,
-                    title="Nombre de co-publication par pays en 2024")
+                    title="Comparaison des ratios de co-publications par pays en 2024 entre l'IRD et le CNRS")
     leg.get_title().set_fontsize(T_NOTE)
     leg.get_title().set_color(MUTED)
     for text in leg.get_texts():

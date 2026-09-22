@@ -63,7 +63,7 @@ def build(title, deck, stem):
 
     # --- 2015: the year the subject acquired its label
     ax.axvline(2015, color=RULE, lw=1.0, zorder=1)
-    ax.text(2015 + 0.3, 10, "2015 : accord de Paris\net adoption des\nObjectifs de Développement Durable",
+    ax.text(2015 + 0.3, 10, "2015 : accord de Paris et adoption des\nObjectifs de Développement Durable (ODD)",
             ha="left", va="top", fontsize=T_NOTE, color=MUTED, linespacing=1.35)
 
     # --- value points: the start of the series, 2015, and the end.
@@ -93,7 +93,7 @@ def build(title, deck, stem):
     ax.set_xticklabels(["2002", "2006", "2010", "2014", "2018", "2022", "2024"], fontsize=T_BODY)
     ax.set_yticks([0, 2, 4, 6, 8])
     ax.set_yticklabels(["", "2 %", "4 %", "6 %", "8 %"], fontsize=T_BODY)
-    ax.set_ylabel("Part des publications\nconsacrées à l'objectif\n\"Lutte contre le changement climatique\"", fontsize=T_BODY, color=MUTED, linespacing=1.4, labelpad=12)
+    ax.set_ylabel("Part des publications consacrées à l'ODD\n\"Lutte contre le changement climatique\"", fontsize=T_BODY, color=MUTED, linespacing=1.4, labelpad=12)
     ax.yaxis.grid(True, color=GRID, lw=0.9, zorder=0)
     ax.set_axisbelow(True)
     for side in ("top", "right", "left"):
