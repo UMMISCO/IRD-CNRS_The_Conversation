@@ -14,6 +14,8 @@ Les figures sont créées dans le dossier `figures/`. Les scripts `fetch_*.py` r
 
 ## Figure 1 — les deux géographies de co-publication
 
+![](figures/fig1_carte_deux_geographies_nolegend.png)
+
 Pour créer la figure `figures/fig1_carte_deux_geographies_nolegend.png`, lancez le script :
 ```bash
 python3 scripts/make_fig1_carte.py
@@ -23,6 +25,8 @@ La figure se base sur :
 - La projection de la map utilise la *Equal Earth projection* dans le fichier `data/world_countries.json`.
 
 ## Figure 1 bis — les structures conjointes, pays par pays
+
+![](figures/fig1bis_carte_structures_nolegend.png)
 
 Pour créer la figure `figures/fig1bis_carte_structures_nolegend.png`, lancez le script :
 ```bash
@@ -38,6 +42,8 @@ Une structure présente dans plusieurs pays est comptée dans chacun d'eux. Les 
 
 ## Figure 2 — l'antériorité sur le climat
 
+![](figures/fig2_anteriorite_climat_nolegend.png)
+
 Pour créer la figure `figures/fig2_anteriorite_climat_nolegend.png`, lancez le script :
 ```bash
 python3 scripts/make_fig2_anteriorite.py
@@ -49,6 +55,8 @@ La figure se base sur deux fichiers tirés d'OpenAlex :
 - `data/sdg_bundles.json` : les mêmes comptes pour des groupes d'ODD, sans doublons (groupe environnement et développement : ODD 1, 2, 6, 13, 14, 15).
 
 ## Figure 3 — ce qu'un euro achète
+
+![](figures/fig3_valeur_euro_nolegend.png)
 
 Pour créer la figure `figures/fig3_valeur_euro_nolegend.png`, lancez le script :
 ```bash
@@ -62,6 +70,8 @@ La figure se base sur trois fichiers :
 - `data/climate_disaster_burden.csv` : les publications de l'IRD et du CNRS par pays (basée sur OpenAlex).
 
 ## Figure 4 — catastrophes climatiques et chercheurs
+
+![](figures/fig4_catastrophes_nolegend.png)
 
 Pour créer la figure `figures/fig4_catastrophes_nolegend.png`, lancez le script :
 ```bash
