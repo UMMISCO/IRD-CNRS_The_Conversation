@@ -1,0 +1,81 @@
+# Structures conjointes PAR PAYS. IRD = LMI + JEAI relevés sur les deux pages de
+# l'IRD le 2026-09-17 ; CNRS = IRL de cnrs_irl_labs.csv (dépôt IRD-impact), 62
+# reconstitués sur ~80 annoncés.
+# Une structure implantée dans plusieurs pays est comptée dans CHACUN d'eux : la
+# carte répond à « y a-t-il une structure ici », pas à « combien en tout ». Les
+# totaux par pays dépassent donc 33 LMI + 38 JEAI.
+#
+# CNRS, colonne cnrs_umifre — les 27 UMIFRE (unités mixtes des instituts français de recherche
+#   à l'étranger, cotutelle CNRS / ministère des Affaires étrangères), relevées le 2026-09-22 sur
+#   https://fr.wikipedia.org/wiki/Unités_mixtes_des_instituts_français_de_recherche_à_l%27étranger
+#   (ni le MEAE ni l'INSHS ne publient de liste consolidée). Siège ET antennes comptés, selon la
+#   même règle que ci-dessus : IFPO = Syrie + Liban + Jordanie, CEDEJ = Égypte + Soudan, CEFC =
+#   Chine (Hong Kong) + Taïwan, CEMCA = Mexique + Guatemala, IFEA (Andes) = Pérou + Équateur.
+#   D'où 33 implantations pour 27 unités. Une UMIFRE n'est ni un IRL ni un LMI (unité de service,
+#   quasi exclusivement en sciences humaines et sociales) : la colonne reste séparée de cnrs_irl.
+iso2,pays,ird_structures,cnrs_irl,cnrs_umifre
+AF,"Afghanistan",0,0,1
+AR,"Argentina",0,1,0
+AT,"Austria",0,1,0
+AU,"Australia",0,3,0
+BF,"Burkina Faso",2,0,0
+BJ,"Bénin",4,0,0
+BO,"Bolivie",1,0,0
+BR,"Brésil",8,3,0
+CA,"Canada",0,6,0
+CI,"Côte d'Ivoire",7,0,0
+CL,"Chile",0,3,0
+CM,"Cameroun",5,0,0
+CN,"China",0,2,1
+CO,"Colombie",2,0,0
+CU,"Cuba",1,0,0
+CZ,"Tchéquie",0,0,1
+DE,"Germany",0,2,2
+EC,"Équateur",3,0,1
+EG,"Égypte",0,0,1
+ES,"Spain",0,1,0
+ET,"Éthiopie",1,0,1
+GA,"Gabon",2,0,0
+GB,"United Kingdom",0,1,1
+GH,"Ghana",1,0,0
+GN,"Guinée",1,0,0
+GT,"Guatemala",0,0,1
+HT,"Haïti",1,0,0
+ID,"Indonésie",2,0,0
+IL,"Israel",0,1,1
+IN,"Inde",2,3,2
+IR,"Iran",0,0,1
+IT,"Italy",0,1,0
+JO,"Jordanie",0,0,1
+JP,"Japan",0,12,1
+KE,"Kenya",0,0,1
+KG,"Kirghizistan",0,0,1
+KH,"Cambodge",1,0,0
+KW,"Koweït",0,0,1
+KZ,"Kazakhstan",0,1,0
+LA,"Laos",1,0,0
+LB,"Liban",0,0,1
+MA,"Maroc",4,0,1
+MG,"Madagascar",2,0,0
+MR,"Mauritanie",1,0,0
+MX,"Mexique",2,2,1
+NE,"Niger",1,0,0
+NG,"Nigeria",0,0,1
+NP,"Népal",1,0,0
+NZ,"New Zealand",0,1,0
+PE,"Pérou",2,0,1
+RU,"Russie",0,0,1
+SD,"Soudan",0,0,2
+SG,"Singapore",0,4,0
+SN,"Sénégal",4,1,0
+SY,"Syrie",0,0,1
+TD,"Tchad",1,0,0
+TG,"Togo",1,0,0
+TH,"Thaïlande",2,1,1
+TN,"Tunisie",3,0,1
+TR,"Turquie",0,0,1
+TW,"Taïwan",0,0,1
+US,"United States",0,9,0
+UY,"Uruguay",0,1,0
+VN,"Vietnam",4,1,0
+ZA,"Afrique du Sud",1,1,1

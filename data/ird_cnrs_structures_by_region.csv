@@ -1,0 +1,36 @@
+# Structures conjointes en activité, par région : LMI et JEAI pour l'IRD, IRL/CRI pour le CNRS.
+#
+# IRD — relevé un à un le 2026-09-17 sur les deux pages officielles :
+#   https://www.ird.fr/laboratoires-mixtes-internationaux-lmi   (33 LMI)
+#   https://www.ird.fr/jeunes-equipes-associees-lird-jeai       (38 JEAI)
+#
+# CNRS — cnrs_irl_labs.csv du dépôt IRD-impact : 62 IRL reconstitués un à un sur les pages des
+#   dix instituts et des bureaux régionaux, le CNRS ne publiant aucune liste consolidée. Le CNRS
+#   en annonce ~80 : 18 manquent donc à l'appel.
+#
+# L'« Asie » des deux organismes n'a PAS le même contenu, et l'agréger produisait une comparaison
+#   trompeuse : les 24 IRL asiatiques du CNRS étaient pour 12 au Japon, 4 à Singapour et 2 en
+#   Chine, quand les 12 structures de l'IRD sont au Vietnam, en Thaïlande, en Indonésie, en Inde,
+#   au Cambodge et au Népal. La région a donc été scindée en Asie du Sud-Est et Asie du Sud
+#   (termes des Nations unies), et l'Asie de l'Est — Japon, Chine — ainsi que le Kazakhstan
+#   (Asie centrale) sont sortis des régions comparées : ils sont hors de la zone d'intervention
+#   de l'IRD, où celui-ci n'a par construction aucune structure.
+#   Singapour est CONSERVÉ en Asie du Sud-Est : le pays y est géographiquement, et l'en retirer
+#   aurait ôté 4 des 6 centres que le CNRS y possède — c'est-à-dire précisément là où il devance
+#   l'IRD.
+#
+# Hors de ces six régions, le CNRS compte 40 centres (dont États-Unis 9, Canada 6, Japon 12,
+#   Australie 3, Chine 2) ; l'IRD n'y a aucune structure.
+#
+# Affectation des pays aux régions : purement géographique, appliquée à l'identique aux deux
+#   organismes. « Méditerranée » = rive sud et est (Maghreb, Machrek, Levant, Turquie).
+#
+# lon/lat = ancrage du camembert sur la carte (placé en mer pour ne pas masquer la région).
+region,region_court,lmi,jeai,cnrs_irl,lon,lat
+"Afrique de l'Ouest et centrale","Afrique de\nl'Ouest et\ncentrale",9,21,1,-32,20
+"Méditerranée","Méditerranée",2,5,1,19,45
+"Afrique de l'Est, australe et océan Indien","Afrique de l'Est,\naustrale,\nocéan Indien",3,1,1,56,-28
+"Amérique latine et Caraïbes","Amérique latine\net Caraïbes",11,7,10,-33,-30
+"Asie du Sud","Asie du Sud",1,2,3,78,10
+#"Asie du Sud-Est","Asie du Sud-Est",7,2,6,140,-13
+"Asie du Sud-Est","Asie du Sud-Est",7,2,6,140,10

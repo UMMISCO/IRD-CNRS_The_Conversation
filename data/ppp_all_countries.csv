@@ -1,0 +1,162 @@
+iso3,iso2,country,year,ppp_mult_vs_fr
+AGO,AO,Angola,2025,2.162
+AND,AD,Andorra,2025,1.125
+ARG,AR,Argentina,2025,1.675
+ARM,AM,Armenia,2025,2.001
+ATG,AG,Antigua and Barbuda,2025,1.105
+AUS,AU,Australia,2025,0.849
+AUT,AT,Austria,2025,0.934
+AZE,AZ,Azerbaijan,2025,2.698
+BDI,BI,Burundi,2025,2.254
+BEL,BE,Belgium,2025,0.941
+BEN,BJ,Benin,2025,2.224
+BFA,BF,Burkina Faso,2025,2.049
+BGD,BD,Bangladesh,2025,3.02
+BGR,BG,Bulgaria,2025,3.275
+BHR,BH,Bahrain,2025,1.777
+BIH,BA,Bosnia and Herzegovina,2025,1.905
+BLR,BY,Belarus,2025,2.586
+BLZ,BZ,Belize,2025,1.457
+BOL,BO,Bolivia,2025,1.915
+BRA,BR,Brazil,2025,1.675
+BRB,BB,Barbados,2025,0.699
+BRN,BN,Brunei Darussalam,2025,2.196
+BTN,BT,Bhutan,2025,3.339
+BWA,BW,Botswana,2025,2.038
+CAF,CF,Central African Republic,2025,1.809
+CAN,CA,Canada,2025,0.918
+CHE,CH,Switzerland,2025,0.684
+CHL,CL,Chile,2025,1.607
+CHN,CN,China,2025,1.62
+CIV,CI,Cote d'Ivoire,2025,2.061
+CMR,CM,Cameroon,2025,2.247
+COD,CD,"Congo, Dem. Rep.",2025,1.833
+COG,CG,"Congo, Rep.",2025,2.207
+COL,CO,Colombia,2025,2.025
+COM,KM,Comoros,2025,1.575
+CPV,CV,Cabo Verde,2025,1.607
+CRI,CR,Costa Rica,2025,1.297
+CYP,CY,Cyprus,2025,1.183
+CZE,CZ,Czechia,2025,1.289
+DEU,DE,Germany,2025,0.954
+DJI,DJ,Djibouti,2025,1.657
+DMA,DM,Dominica,2025,1.583
+DNK,DK,Denmark,2025,0.828
+DOM,DO,Dominican Republic,2025,1.989
+DZA,DZ,Algeria,2025,2.352
+ECU,EC,Ecuador,2025,1.801
+EGY,EG,"Egypt, Arab Rep.",2025,4.97
+ESP,ES,Spain,2025,1.187
+EST,EE,Estonia,2025,1.159
+FIN,FI,Finland,2025,0.898
+FJI,FJ,Fiji,2025,1.883
+FRA,FR,France,2025,1.0
+FSM,FM,"Micronesia, Fed. Sts.",2025,0.799
+GAB,GA,Gabon,2025,2.059
+GBR,GB,United Kingdom,2025,0.859
+GEO,GE,Georgia,2025,2.324
+GHA,GH,Ghana,2025,2.024
+GMB,GM,"Gambia, The",2025,3.068
+GNB,GW,Guinea-Bissau,2025,2.244
+GNQ,GQ,Equatorial Guinea,2025,1.867
+GRC,GR,Greece,2025,1.286
+GRD,GD,Grenada,2025,1.35
+GTM,GT,Guatemala,2025,1.764
+GUY,GY,Guyana,2025,2.313
+HKG,HK,"Hong Kong SAR, China",2025,1.081
+HND,HN,Honduras,2025,1.675
+HRV,HR,Croatia,2025,1.439
+HTI,HT,Haiti,2025,0.89
+HUN,HU,Hungary,2025,1.473
+IDN,ID,Indonesia,2025,2.673
+IND,IN,India,2025,3.322
+IRL,IE,Ireland,2025,0.902
+ISL,IS,Iceland,2025,0.65
+ISR,IL,Israel,2025,0.758
+ITA,IT,Italy,2025,1.11
+JAM,JM,Jamaica,2025,1.272
+JOR,JO,Jordan,2025,1.809
+JPN,JP,Japan,2025,1.18
+KAZ,KZ,Kazakhstan,2025,2.308
+KEN,KE,Kenya,2025,2.274
+KHM,KH,Cambodia,2025,2.277
+KIR,KI,Kiribati,2025,1.178
+KNA,KN,St. Kitts and Nevis,2025,1.116
+KOR,KR,"Korea, Rep.",2025,1.334
+KWT,KW,Kuwait,2025,1.338
+LBY,LY,Libya,2025,1.961
+LCA,LC,St. Lucia,2025,1.489
+LSO,LS,Lesotho,2025,2.239
+LTU,LT,Lithuania,2025,1.32
+LUX,LU,Luxembourg,2025,0.814
+LVA,LV,Latvia,2025,1.343
+MAC,MO,"Macao SAR, China",2025,1.382
+MAR,MA,Morocco,2025,1.821
+MDA,MD,Moldova,2025,1.777
+MDG,MG,Madagascar,2025,2.495
+MDV,MV,Maldives,2025,1.496
+MEX,MX,Mexico,2025,1.426
+MHL,MH,Marshall Islands,2025,0.809
+MKD,MK,North Macedonia,2025,2.046
+MLI,ML,Mali,2025,2.248
+MLT,MT,Malta,2025,1.154
+MNE,ME,Montenegro,2025,1.835
+MNG,MN,Mongolia,2025,2.24
+MUS,MU,Mauritius,2025,1.984
+MYS,MY,Malaysia,2025,2.421
+NAM,NA,Namibia,2025,1.882
+NER,NE,Niger,2025,2.15
+NGA,NG,Nigeria,2025,5.961
+NIC,NI,Nicaragua,2025,2.24
+NLD,NL,Netherlands,2025,0.907
+NOR,NO,Norway,2025,0.842
+NPL,NP,Nepal,2025,3.142
+NRU,NR,Naoero,2025,0.746
+NZL,NZ,New Zealand,2025,0.894
+OMN,OM,Oman,2025,1.624
+PAK,PK,Pakistan,2025,3.173
+PAN,PA,Panama,2025,1.699
+PER,PE,Peru,2025,1.488
+PHL,PH,Philippines,2025,2.309
+PLW,PW,Palau,2025,0.904
+PNG,PG,Papua New Guinea,2025,1.322
+POL,PL,Poland,2025,1.462
+PRI,PR,Puerto Rico (US),2025,0.984
+PRT,PT,Portugal,2025,1.268
+PRY,PY,Paraguay,2025,2.199
+QAT,QA,Qatar,2025,1.361
+ROU,RO,Romania,2025,1.729
+RWA,RW,Rwanda,2025,2.838
+SAU,SA,Saudi Arabia,2025,1.636
+SEN,SN,Senegal,2025,2.14
+SGP,SG,Singapore,2025,1.266
+SLB,SB,Solomon Islands,2025,1.023
+SLV,SV,El Salvador,2025,1.872
+SRB,RS,Serbia,2025,1.701
+SUR,SR,Suriname,2025,2.453
+SVK,SK,Slovak Republic,2025,1.323
+SVN,SI,Slovenia,2025,1.214
+SWE,SE,Sweden,2025,0.88
+SWZ,SZ,Eswatini,2025,2.335
+SXM,SX,Sint Maarten (Dutch part),2025,1.006
+SYC,SC,Seychelles,2025,1.412
+TCD,TD,Chad,2025,2.174
+TGO,TG,Togo,2025,2.257
+THA,TH,Thailand,2025,2.495
+TJK,TJ,Tajikistan,2025,2.77
+TLS,TL,Timor-Leste,2025,2.746
+TON,TO,Tonga,2025,1.021
+TTO,TT,Trinidad and Tobago,2025,1.499
+TUR,TR,Turkiye,2025,1.864
+TUV,TV,Tuvalu,2025,0.857
+UGA,UG,Uganda,2025,2.17
+UKR,UA,Ukraine,2025,2.468
+URY,UY,Uruguay,2025,1.163
+USA,US,United States,2025,0.766
+UZB,UZ,Uzbekistan,2025,2.624
+VCT,VC,St. Vincent and the Grenadines,2025,1.39
+WSM,WS,Samoa,2025,1.219
+XKX,XK,Kosovo,2025,1.872
+ZAF,ZA,South Africa,2025,1.846
+ZMB,ZM,Zambia,2025,2.56
+ZWE,ZW,Zimbabwe,2025,1.372
