@@ -61,7 +61,7 @@ def load_structures():
 
     Provenance, and the geographic rule used to assign a country to a region, are in the
     header of the CSV. The IRD regions and counts are its own pages'; the CNRS list is the
-    62 IRL reconstructed one by one in the IRD-impact repository, the CNRS publishing none.
+    62 IRL reconstructed one by one in data/cnrs_irl_labs.csv, the CNRS publishing no list.
     """
     path = os.path.join(DATA, "ird_cnrs_structures_by_region.csv")
     rows = list(csv.DictReader(line for line in open(path) if not line.startswith("#")))
@@ -144,7 +144,7 @@ def build(title, deck, stem):
     leg = ax.legend(handles=handles, loc="upper center", bbox_to_anchor=(0.5, 0),
                     ncol=5, frameon=False, handlelength=1.15, handleheight=1.15,
                     columnspacing=1.35, handletextpad=0.5, fontsize=T_NOTE,
-                    title="Comparaison des ratios de co-publications par pays en 2024 entre l'IRD et le CNRS")
+                    title="Comparaison des ratios de co-publications par pays entre l'IRD et le CNRS")
     leg.get_title().set_fontsize(T_NOTE)
     leg.get_title().set_color(MUTED)
     for text in leg.get_texts():
