@@ -4,7 +4,7 @@
 #   https://www.ird.fr/laboratoires-mixtes-internationaux-lmi   (33 LMI)
 #   https://www.ird.fr/jeunes-equipes-associees-lird-jeai       (38 JEAI)
 #
-# CNRS — cnrs_irl_labs.csv du dépôt IRD-impact : 62 IRL reconstitués un à un sur les pages des
+# CNRS — cnrs_irl_labs.csv (dans data/) : 62 IRL reconstitués un à un sur les pages des
 #   dix instituts et des bureaux régionaux, le CNRS ne publiant aucune liste consolidée. Le CNRS
 #   en annonce ~80 : 18 manquent donc à l'appel.
 #
